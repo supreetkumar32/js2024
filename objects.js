@@ -50,4 +50,7 @@ function getObjects(name,city){
 const object=getObjects("Sup","Bgp");
 console.log(object);//{name:'Sup',city:'Bgp'}
 
+const student="sup";
+const course="react";
+console.log({student,course});
 
