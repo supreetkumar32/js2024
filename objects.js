@@ -31,3 +31,23 @@ const a={
 }
 a.greetmsg();
 //console.log("greeting" +a.greetmsg());
+
+//adding property to object
+const obj={
+  name:"Supreet",
+  age:24
+}
+
+//for adding the property in an object
+obj.city="Bgp";
+
+//short hand
+function getObjects(name,city){
+  return{
+    name,city
+  }
+}
+const object=getObjects("Sup","Bgp");
+console.log(object);//{name:'Sup',city:'Bgp'}
+
+
